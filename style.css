@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 610px;
+    height: 225px;
+}
+
+.card-img {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+.sel {
+    width: 170px;
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+}
+
+.item {
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    width: 310px;
+    height: 425px;
+}
+
+.list {
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-age {
+    background-color: aquamarine;
+    color: black;
+}
+
+.card-box {
+    display: flex;
+}
